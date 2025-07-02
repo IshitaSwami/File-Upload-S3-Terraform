@@ -34,6 +34,12 @@ How to Run?
    To Test visit http://localhost:5000/upload
    Upload a file via the form
    User gets message "file uploaded successfully on s3 bucket"
+   
+5. Run the automation test with pytest:
+    -test_health_endpoint() checks /healthz response
+    -test_file_upload_to_s3() uploads a file to S3 and verifies it exists
+
    Check the S3 bucket via AWS Console
+   
 
 
